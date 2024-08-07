@@ -1,0 +1,29 @@
+<suite name="Project name">
+    <test name="module 1">
+  <!--  <groups>
+          <run>
+              <include name="login"/>
+          </run>
+      </groups> -->
+
+
+          <classes>
+
+              <class name="TestNG.Demo1.adminCheck">
+              <!--<methods>
+                  <include name="login"/>
+              </methods> -->
+         </class>
+
+        <!-- <class name="TestNG.Demo1.ClassTwo"/>-->
+        </classes>
+    </test>
+
+    <!--
+   <test name="module 2">
+       <classes>
+           <class name="TestNG.Demo1.ClassThree"/>
+       </classes>
+   </test>  -->
+
+</suite>

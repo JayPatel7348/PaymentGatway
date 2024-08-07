@@ -1,0 +1,17 @@
+<suite name="Project name">
+    <test name="module 1">
+
+        <groups>
+            <run>
+                <include name="email"/>
+            </run>
+        </groups>
+
+        <classes> //Only those Test cases will be executed which has attribute (groups="email") in the below classes only
+        <class name="TestNG.Demo1.ClassOne"/>
+            <class name="TestNG.Demo1.ClassTwo"/>
+        </classes>
+
+    </test>
+
+</suite>
